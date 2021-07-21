@@ -59,8 +59,8 @@ function setup() {
  	boxRightBody = Bodies.rectangle(boxPosition+200-20 , boxY, 20,100 , {isStatic:true} );
  	World.add(world, boxRightBody);
 
-     packageSprite = new Package(100,100,50,50);
-	 helicopterSprite = new Helicopter(100,100,200,100);
+     packageSprite = new Package(400,100,50,50);
+	 helicopterSprite = new Helicopter(400,100,200,100);
 
 	Engine.run(engine);
   
